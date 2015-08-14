@@ -2,6 +2,8 @@ sudo: true
 language: go
 go:
 - 1.4
+before_deploy:
+  - rm -rf Godeps/_workspace/pkg
 deploy:
   on:
     branch: master
