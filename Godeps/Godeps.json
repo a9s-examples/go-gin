@@ -1,28 +1,43 @@
 {
-	"ImportPath": "github.com/gogolok/a9s-go-example",
-	"GoVersion": "go1.4.2",
+	"ImportPath": "github.com/a9s-examples/go-gin",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v67",
 	"Deps": [
 		{
 			"ImportPath": "github.com/gin-gonic/gin",
-			"Comment": "v1.0rc1-136-gfd5d429",
-			"Rev": "fd5d4294a5d5223d55fc76d7840f4b0ad91647bb"
+			"Comment": "v1.0rc1-266-g542be2f",
+			"Rev": "542be2fe77724f800fcab7eb6c01a4e597fb8506"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/binding",
+			"Comment": "v1.0rc1-266-g542be2f",
+			"Rev": "542be2fe77724f800fcab7eb6c01a4e597fb8506"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/render",
+			"Comment": "v1.0rc1-266-g542be2f",
+			"Rev": "542be2fe77724f800fcab7eb6c01a4e597fb8506"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "7cc19b78d562895b13596ddce7aafb59dd789318"
 		},
 		{
 			"ImportPath": "github.com/manucorporat/sse",
-			"Rev": "fe6ea2c8e398672518ef204bf0fbd9af858d0e15"
-		},
-		{
-			"ImportPath": "github.com/mattn/go-colorable",
-			"Rev": "40e4aedc8fabf8c23e040057540867186712faa5"
+			"Rev": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d"
 		},
 		{
 			"ImportPath": "golang.org/x/net/context",
-			"Rev": "97d8e4e174133a4d1d2171380e510eb4dea8f5ea"
+			"Rev": "ef00b378c73f107bf44d5c9b69875255ce89b79a"
 		},
 		{
-			"ImportPath": "gopkg.in/bluesuncorp/validator.v5",
-			"Comment": "v5.11",
-			"Rev": "98121ac23ff3d764f525d18d8de944d150e3c0fe"
+			"ImportPath": "gopkg.in/go-playground/validator.v8",
+			"Comment": "v8.17.1",
+			"Rev": "014792cf3e266caff1e916876be12282b33059e0"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "a83829b6f1293c91addabc89d0571c246397bbf4"
 		}
 	]
 }

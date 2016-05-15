@@ -4,6 +4,6 @@ applications:
   instances: 1
   memory: 128M
   host: a9s-examples-go-gin
-  buildpack: https://github.com/cloudfoundry/go-buildpack.git#v1.3.1
-  domain: de.a9sapp.eu
+  buildpack: https://github.com/cloudfoundry/go-buildpack.git
+  domain: aws.ie.a9sapp.eu
   command: go-gin
